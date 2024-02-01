@@ -1,0 +1,14 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Template</title>
+</head>
+<body>
+    <h1>Welcome to my Django page!</h1>
+    <form action="/run_flask_app/" method="post">
+        {% csrf_token %}
+        <input type="submit" value="Run Flask App">
+    </form>
+</body>
+</html>
